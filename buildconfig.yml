@@ -1,0 +1,6 @@
+source:
+  git: 
+    uri: "https://github.com/openshift/ruby-hello-world"
+    ref: "master"
+  contextDir: "app/dir" 
+  dockerfile: "FROM openshift/ruby-22-centos7\nUSER example" 
